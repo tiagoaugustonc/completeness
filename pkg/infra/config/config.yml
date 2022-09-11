@@ -1,0 +1,10 @@
+name: "Completeness"
+server:
+  port: 8080
+database:
+  cadastro:
+    host: "localhost"
+    port: 3306
+    username: "completeness-user"
+    password: "completeness-pass"
+    database: "completeness-db"

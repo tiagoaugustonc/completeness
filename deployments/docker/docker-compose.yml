@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0.28
+    environment:
+      - MYSQL_ROOT_PASSWORD=senha
+      - MYSQL_USER=completeness-user
+      - MYSQL_PASSWORD=completeness-pass
+      - MYSQL_DATABASE=completeness-db
+    ports:
+      - "3306:3306"
+    
